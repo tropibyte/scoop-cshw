@@ -1,6 +1,6 @@
 {
-    "version": "1.0.6.2",
-    "description": "cshw -- C Shell for Windows. A modern, single-binary csh-compatible shell with a full POSIX bc + exact-arithmetic mode.",
+    "version": "1.0.6.3",
+    "description": "cshw -- C Shell for Windows. A modern, single-binary csh-compatible shell with a full POSIX bc/dc, opt-in exact-rational tier, and complex-number arithmetic.",
     "homepage": "https://github.com/tropibyte/CSHW",
     "license": {
         "identifier": "PolyForm-Small-Business-1.0.0",
@@ -12,13 +12,13 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tropibyte/cshw-releases/releases/download/v1.0.6.2/cshw-setup-1.0.6.2.exe",
-            "hash": "3230ec41e8182ab9dc34b09f0d2dd44362d2278fe0a1976622c611ce993927c6"
+            "url": "https://github.com/tropibyte/cshw-releases/releases/download/v1.0.6.3/cshw-setup-1.0.6.3.exe",
+            "hash": "10c7fa461cbef0cc366cee0302af064a31a8071fa4c3e003c814326287d1cb4f"
         }
     },
     "installer": {
         "script": [
-            "$installer = \"$dir\\cshw-setup-1.0.6.2.exe\"",
+            "$installer = \"$dir\\cshw-setup-1.0.6.3.exe\"",
             "Start-Process -Wait -FilePath $installer -ArgumentList @('/VERYSILENT', '/SUPPRESSMSGBOXES', '/NORESTART')"
         ]
     },
