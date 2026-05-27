@@ -1,5 +1,5 @@
 {
-    "version": "1.0.6.4",
+    "version": "1.0.7.0",
     "description": "cshw -- C Shell for Windows. A modern, single-binary csh-compatible shell with a full POSIX bc/dc, opt-in exact-rational tier, and complex-number arithmetic.",
     "homepage": "https://github.com/tropibyte/CSHW",
     "license": {
@@ -12,13 +12,13 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tropibyte/cshw-releases/releases/download/v1.0.6.4/cshw-setup-1.0.6.4.exe",
-            "hash": "34ab8c8536fe9d823be9d2be02ff43aaf50de99f3d9e2e7f08be41b5aeb485ad"
+            "url": "https://github.com/tropibyte/cshw-releases/releases/download/v1.0.7.0/cshw-setup-1.0.7.0.exe",
+            "hash": "a7007611811cf318de2f330c8ccc502717eebf8db4a8edbdea76fa8f91416ba9"
         }
     },
     "installer": {
         "script": [
-            "$installer = \"$dir\\cshw-setup-1.0.6.4.exe\"",
+            "$installer = \"$dir\\cshw-setup-1.0.7.0.exe\"",
             "Start-Process -Wait -FilePath $installer -ArgumentList @('/VERYSILENT', '/SUPPRESSMSGBOXES', '/NORESTART')"
         ]
     },
